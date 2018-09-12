@@ -156,7 +156,7 @@
             <select name="reportTemplate" id="reportTemplate" class="form-control">
               <option value="" <?php echo($project->templateReport == '' ? 'selected="selected"' : '') ?>>Select Lenguage</option>
               <option value="sp" <?php echo($project->templateReport == 'sp' ? 'selected="selected"' : '') ?>>Spanish</option>
-              <option value="en" <?php echo($project->templateReport == 'en' ? 'selected="selected"' : '') ?>>Inglish</option>
+              <option value="en" <?php echo($project->templateReport == 'en' ? 'selected="selected"' : '') ?>>English</option>
             </select>             
           </div>
         </div>
